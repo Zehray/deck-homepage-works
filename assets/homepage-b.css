@@ -1,0 +1,97 @@
+.homepage-b {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.left-sc {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  padding: 1%;
+}
+.left-sc img {
+  width: 100%;
+}
+.right-sc {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 1%;
+}
+.right-sc img {
+  width: 100%;
+}
+.pink-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background: #ff565c;
+  min-width: 100%;
+  margin-top: 8%;
+}
+
+.pink-box h1 {
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+.pink-box p {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 24px;
+  padding: 10% 0;
+  line-height: 45px;
+}
+
+.pink-box .pink-button {
+  width: 70%;
+  padding: 20px 0;
+  margin-bottom: 10%;
+  border: 1px solid white;
+  border-bottom: 2px solid white;
+}
+.right-sc .right-img-bottom {
+  margin-top: 8%;
+}
+.right-sc img {
+  width: 100%;
+}
+
+.stories-list {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 30%;
+  border: 1px solid #f2f3f6;
+  margin-top: 4%;
+}
+.stories-list h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 9%;
+  padding-bottom: 2%;
+}
+
+.stories-list ul li {
+  display: inline-flex;
+  padding: 5% 0;
+  border-bottom: 1px solid #f2f3f6;
+  padding: 10% 8%;
+  line-height: 28px;
+}
+.stories-list .second-li {
+  padding-bottom: 1%;
+}
+.stories-list ul li span {
+  color: #dadadb;
+  padding-right: 5%;
+}
+.entertainment-img {
+  background: url(images/laptop-on-seat.jpg);
+}

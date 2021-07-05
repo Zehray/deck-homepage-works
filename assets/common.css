@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+}
+.hp-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+}
+.left-links {
+  display: flex;
+  padding: 30px;
+  padding-left: 40px;
+}
+.menu-links {
+  display: flex;
+  margin-left: 30px;
+  font-family: "Oswald", sans-serif;
+  align-items: center;
+}
+.logo-deck {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1d1f24;
+  white-space: nowrap;
+}
+.logo-deck span {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff8e92;
+}
+.menu-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ecedee;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 30px;
+}
+.menu-icon {
+  padding: 40px 0;
+  padding-right: 40px;
+}
+
+.pink-button {
+  display: inline-block;
+  background: #ff565c;
+  border: none;
+  width: 35%;
+  padding: 10px 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.homepage-ft {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: #1d1f24;
+  padding: 45px 40px;
+}
+.homepage-ft {
+  order: 1;
+}
+.homepage-ft .logo-deck {
+  font-size: 30px;
+  color: #494b4f;
+}
+.homepage-ft .telif {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: #bbbbbd;
+  padding-top: 7px;
+  white-space: nowrap;
+}
+.homepage-ft .footer-menu-link {
+  display: flex;
+  order: 2;
+}
+
+.footer-menu-link a {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 10px 50px;
+}
+
+.right-ft {
+  width: 33.33%;
+  order: 3;
+}
+.homepage-ft .right-ft .sm-icon-links {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-start;
+  text-align: right;
+}
+
+.sm-icon-links span {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato";
+  color: #c5c5c6;
+  text-align: left;
+}
+.sm-icon-links div {
+  display: inline-block;
+  margin: 0 15px;
+}
+.right-ft form {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
+}
+.right-ft input {
+  width: 40%;
+  padding: 5px;
+  padding-left: 10px;
+}
+.right-ft input::placeholder {
+  color: #bbbcbc;
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+}
+.right-ft .pink-button {
+  width: 26%;
+}
