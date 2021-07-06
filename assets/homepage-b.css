@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   width: 55%;
+  min-width: 55%;
   padding: 1%;
 }
 .left-sc img {
@@ -18,6 +19,7 @@
   display: flex;
   flex-direction: column;
   width: 20%;
+  min-width: 20%;
   padding: 1%;
 }
 .right-sc img {
@@ -27,6 +29,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-width: 100%;
   padding: 20px;
   background: #ff565c;
   min-width: 100%;
@@ -61,12 +64,17 @@
 .right-sc img {
   width: 100%;
 }
-
+.left-sc-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .stories-list {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 18px;
   width: 30%;
+  min-width: 30%;
   border: 1px solid #f2f3f6;
   margin-top: 4%;
 }
@@ -93,5 +101,21 @@
   padding-right: 5%;
 }
 .entertainment-img {
-  background: url(images/laptop-on-seat.jpg);
+  background: url("../images/laptop-on-seat.jpg");
+  width: 100%;
+  min-width: 100%;
+  padding-top: 35%;
+  margin-top: 5%;
+  position: relative;
+}
+.entertainment-img .pink-button {
+  position: absolute;
+  top: 12%;
+}
+.entertainment-img p {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  color: white;
+  width: 55%;
 }
