@@ -1,17 +1,23 @@
 .homepage-b {
   display: flex;
   justify-content: center;
+
   width: 100%;
   height: auto;
 }
 .left-benner-menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background: url("../images/benner-2-img.jpg");
   width: 100%;
   height: 670px;
   filter: brightness(0.5);
   text-align: center;
+}
+.left-benner-menu .pink-button {
+  width: 12%;
+  margin: 0 auto;
 }
 .left-sc {
   display: flex;
@@ -50,6 +56,15 @@
   color: white;
   text-transform: uppercase;
   line-height: 50px;
+}
+.benner-text-p {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  color: white;
+  font-size: 22px;
+  width: 64%;
+  margin: 0 auto;
 }
 .pink-box p {
   font-family: "Lato", sans-serif;
