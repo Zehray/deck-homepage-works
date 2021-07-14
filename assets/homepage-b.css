@@ -12,13 +12,43 @@
   background: url("../images/benner-2-img.jpg");
   width: 100%;
   height: 670px;
+  min-height: 600px;
   filter: brightness(0.5);
   text-align: center;
 }
-.left-benner-menu .pink-button {
+.benner-all-text {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  height: 670px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.small-benner-box {
+  position: relative;
+  width: 100%;
+}
+
+.benner-all-small-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  height: 100%;
+}
+.benner-all-text .pink-button {
   width: 12%;
   margin: 0 auto;
 }
+.left-sc .benner-all-text h1,
+p {
+  text-align: center;
+  margin: 2% 0;
+}
+
 .left-sc {
   display: flex;
   flex-direction: column;
@@ -94,6 +124,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: 4%;
 }
 .stories-list {
   font-family: "Lato", sans-serif;
@@ -102,7 +133,6 @@
   width: 30%;
   min-width: 30%;
   border: 1px solid #f2f3f6;
-  margin-top: 4%;
 }
 .stories-list h1 {
   font-family: "Oswald", sans-serif;
@@ -129,6 +159,12 @@
 .small-img-links {
   width: 67%;
 }
+.entertainment-img-box {
+  width: 100%;
+  min-width: 100%;
+  height: 55%;
+  position: relative;
+}
 .entertainment-img {
   display: flex;
   flex-direction: column;
@@ -136,25 +172,37 @@
   background: url("../images/laptop-on-seat.jpg");
   width: 100%;
   min-width: 100%;
-  height: 48%;
-  margin-top: 6%;
+  height: 100%;
   position: relative;
   filter: brightness(0.5);
 }
-.entertainment-img .pink-button {
+.entertainment-img-box .pink-button {
   position: absolute;
   top: 12%;
+  left: 0;
 }
+
 .img-text {
   display: inline-block;
   font-family: "Lato", sans-serif;
   font-size: 24px;
   color: white;
-  width: 55%;
-  margin-left: 5%;
+  width: 75%;
+  margin: 0;
+  text-align: left;
 }
 .small-box-text {
   width: 80%;
+}
+.small-box-text .pink-button {
+  position: absolute;
+  top: 12%;
+  left: 0;
+}
+.benner-all-small-text .pink-button {
+  position: absolute;
+  top: 20%;
+  left: 0;
 }
 .finance-gaming-img {
   width: 100%;
@@ -171,6 +219,7 @@
   width: 100%;
   height: 270px;
   margin-right: 2%;
+  position: relative;
   background: url("../images/finance-2-img.jpg");
   filter: brightness(0.5);
 }
@@ -226,7 +275,13 @@
     justify-content: space-between;
   }
   .entertainment-img {
-    height: 42%;
+    height: 90%;
+  }
+  .benner-all-small-text .pink-button {
+    top: 20%;
+  }
+  .benner-all-text {
+    width: 69%;
   }
   .pink-box h1 {
     font-size: 29px;
