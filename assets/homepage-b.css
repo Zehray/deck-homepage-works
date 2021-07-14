@@ -84,8 +84,11 @@
 .right-sc .right-img-bottom {
   margin-top: 8%;
 }
-.right-sc img {
+.right-sc .right-benner {
+  background: url("../images/right-img-top.jpg");
   width: 100%;
+  height: 235px;
+  filter: brightness(0.5);
 }
 .left-sc-2 {
   width: 100%;
@@ -155,7 +158,6 @@
 }
 .finance-gaming-img {
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -193,4 +195,50 @@
   height: 270px;
   margin-right: 4%;
   filter: brightness(0.5);
+}
+
+@media only screen and (max-width: 1366px) {
+  .left-sc {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 70%;
+    padding: 1%;
+  }
+
+  .right-sc {
+    width: 25%;
+    max-width: 25%;
+  }
+
+  .left-benner-menu {
+    height: 35%;
+  }
+
+  .stories-list {
+    width: 33%;
+    min-width: 33%;
+    margin-right: 2%;
+  }
+  .small-img-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .entertainment-img {
+    height: 42%;
+  }
+  .pink-box h1 {
+    font-size: 29px;
+    line-height: 45px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+  }
+  .pink-box p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 8% 0;
+    line-height: 30px;
+  }
 }
