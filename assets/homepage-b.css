@@ -412,6 +412,10 @@ display: none;
         width: 100%;
         min-width: 100%;
       }
+      .benner-text-h1{
+        font-size: 35px;
+        line-height: 35px;
+      }
       .benner-all-text .pink-button {
         width: 30%;
         margin: 0 auto;
@@ -430,6 +434,9 @@ display: none;
     .stories-list {
       width: 100%;
   }
+  .stories-list ul li {
+    font-size: 24px;
+  }
   .finance-gaming-img .small-benner-box:nth-child(2){
     display: none;
   }
@@ -441,6 +448,7 @@ display: none;
     margin:0 auto;
     width: 96%;
   }
+  
   .pink-box .pink-button{
     width: 70%;
     margin-bottom: 0;
