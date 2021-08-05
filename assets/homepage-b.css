@@ -1,3 +1,4 @@
+
 .homepage-b {
   display: flex;
   justify-content: center;
@@ -385,6 +386,7 @@ display: none;
   .for-tablet-none{
     display: none;
   }
+  
   .pink-box p {
     margin: 0;
     padding: 0;
@@ -395,5 +397,52 @@ display: none;
   }
   .right-sc .small-benner-box{
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hp-header .left-links .menu-links{
+    display: none;
+      }
+      .homepage-b{
+        flex-direction: column;
+        align-items: center;
+      } 
+      .left-sc{
+        width: 100%;
+        min-width: 100%;
+      }
+      .benner-all-text .pink-button {
+        width: 30%;
+        margin: 0 auto;
+    }
+      .for-mobile-none{
+        display: none;
+      }
+      .benner-all-text .img-footer-icons {
+        width: 100%;
+        min-width: 100%;
+    }
+    .left-sc-2{
+      flex-direction: column;
+    }
+
+    .stories-list {
+      width: 100%;
+  }
+  .finance-gaming-img .small-benner-box:nth-child(2){
+    display: none;
+  }
+  .left-sc-2 .small-img-links{
+    margin: 4% auto 0 auto;
+    width: 96%;
+  }
+  .right-sc .small-benner-box{
+    margin:0 auto;
+    width: 96%;
+  }
+  .pink-box .pink-button{
+    width: 70%;
+    margin-bottom: 0;
   }
 }
