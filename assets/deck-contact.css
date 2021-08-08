@@ -1,0 +1,63 @@
+.contact-page-pink{
+    background: #ff565c;
+    display: flex;
+}
+.contact-form-area{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-benner-area{
+    display: inline-block;
+}
+.contact-form-area h1,h2{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+.contact-form-area h1{
+    color:white;
+}
+.contact-form-area p{
+    width: 80%;
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-top: 4%;
+}
+.contact-form-area form
+    {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        text-align: left;
+        font-family: "PT Sans", sans-serif;
+        margin-top: 10%;
+      }
+
+      .contact-form-area form input {
+          background: #ff565c;
+          border: 1px solid white;
+        margin-bottom: 5%;
+        padding: 7% 0 7% 7%;
+        font-family: "PT Sans", sans-serif;
+        font-size: 18px;
+      }
+      .contact-form-area input::placeholder{
+          color: white;
+          text-transform: uppercase;
+      }
+      .contact-form-area button {
+        font-family: "Oswald", sans-serif;
+        font-size: 21px;
+          background: black;
+          color: white;
+          text-transform: uppercase;
+          padding: 7% 0;
+      }
+
+      .contact-benner-area {
+          width: 50%;
+          background: url(../images/contact-benner.png) no-repeat;
+      }
