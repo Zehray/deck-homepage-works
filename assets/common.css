@@ -65,9 +65,7 @@
   background: #1d1f24;
   padding: 45px 40px;
 }
-.homepage-ft {
-  order: 1;
-}
+
 .homepage-ft .logo-deck {
   font-size: 30px;
   color: #494b4f;
@@ -82,7 +80,6 @@
 }
 .homepage-ft .footer-menu-link {
   display: flex;
-  order: 2;
 }
 
 .footer-menu-link a {
@@ -98,7 +95,7 @@
 
 .right-ft {
   width: 33.33%;
-  order: 3;
+ 
 }
 .homepage-ft .right-ft .sm-icon-links {
   justify-content: flex-end;
